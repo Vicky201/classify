@@ -12,9 +12,9 @@ def get_embedding(text, model="text-embedding-3-small", api_key=None):
     Gets the embedding for a given text using the OpenAI API.
     """
     if api_key is None:
-        api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFrdWxhLmtyaXNobmFAc3RyYWl2ZS5jb20ifQ.R14R_Hw_Hp8ut1Y53pVvAKhULwP4-oIp469jsns4hMY"
+        api_key = "xxxx"
 
-    url = "https://llmfoundry.straive.com/v1/embeddings"
+    url = "xxxxx"
     headers = {
         "Authorization":  f"Bearer {api_key}",
         "Content-Type": "application/json"
