@@ -112,7 +112,7 @@ if submitted:
     if not sentences or not topics:
         st.warning("Please enter both text and topics.")
     else:
-        similarity_matrix = calculate_similarity_matrix(sentences, topics, model_name, "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFrdWxhLmtyaXNobmFAc3RyYWl2ZS5jb20ifQ.R14R_Hw_Hp8ut1Y53pVvAKhULwP4-oIp469jsns4hMY")
+        similarity_matrix = calculate_similarity_matrix(sentences, topics, model_name,api-key)
 
         if similarity_matrix is not None:
             # --- Visualization ---
